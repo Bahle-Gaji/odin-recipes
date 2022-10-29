@@ -15,11 +15,16 @@ body{
     background: burlywood;
 }
 
-.heading{
+.heading, .heading-index{
     background-color: aliceblue;
     text-align: center;
     color: rgb(226, 12, 12);
     font-size: 30px;
+}
+
+.heading-index {
+    justify-content: center;
+    border: solid 1px black;
 }
 
 ul li{
@@ -58,4 +63,23 @@ h2, h3, ol{
 
 .recipe-pic{
     margin: 10px;
+}
+
+.header {
+    display: flex;
+    background-color:aliceblue;
+    border: solid black 2px;
+    justify-content: space-between;
+}
+
+.header ul li {
+    list-style: none;
+    margin-right: 20px;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: rgb(168, 131, 82);
 }
