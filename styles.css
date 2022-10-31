@@ -83,3 +83,9 @@ h2, h3, ol{
     text-decoration: none;
     color: rgb(168, 131, 82);
 }
+
+.list {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
